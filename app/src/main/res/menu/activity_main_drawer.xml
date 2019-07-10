@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profilo"
+            android:icon="@mipmap/profilo"
+            android:title="Profilo" />
+        <item
+            android:id="@+id/nav_polizze"
+            android:icon="@mipmap/polizze"
+            android:title="Polizze" />
+        <item
+            android:id="@+id/nav_preventivi"
+            android:icon="@mipmap/preventivo"
+            android:title="Preventivi" />
+        <item
+            android:id="@+id/nav_contatta"
+            android:icon="@mipmap/contatta"
+            android:title="Contatta" />
+    </group>
+
+</menu>
